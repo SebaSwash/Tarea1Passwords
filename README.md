@@ -9,7 +9,7 @@ Automatización de registro de cuenta, inicio de sesión, recuperación de cuent
 
 ### Consideraciones importantes
 ---
-1. Todas las funcionalidades fueron probadas y deberían funcionar sin problema. A veces se detecta que el navegador no logra cargar en el tiempo establecido en el código y el proceso comienza a buscar elementos que aún no cargan, tirando error. Para solucionarlo, intentar nuevamente la ejecución.
+1. Todas las funcionalidades fueron probadas y deberían funcionar sin problema. A veces se detecta que el navegador no logra cargar en el tiempo establecido en el código y el proceso comienza a buscar elementos que aún no cargan, tirando error. Para solucionarlo, intentar nuevamente la ejecución o modificar los segundos en los implicit wait o time.sleep.
    
 2. Se utilizan las siguientes librerías de Python:
    1. Selenium (pip install selenium)
